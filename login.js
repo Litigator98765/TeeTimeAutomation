@@ -15,8 +15,8 @@ async function openLoginPage() {
   
     // Fill in the login form
     await page.waitForSelector('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_UserName');
-    await page.type('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_UserName', 'MMiller');
-    await page.type('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_Password', 'Cp6$nb%*');
+    await page.type('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_UserName', 'MMiller'); // ADD USERNAME HERE
+    await page.type('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_Password', 'Cp6$nb%*');// ADD PASSWORD HERE
   
     // Click login
     await page.click('#p_lt_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_LoginButton');

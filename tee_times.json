@@ -105,8 +105,8 @@
                         "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 4,
-                        "playerTypeTxt": "Member",
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
                         "playerLabel": "Not Available"
                     }
                 ],
@@ -347,11 +347,11 @@
                 "eighteenAllowed": true,
                 "nineAllowed": true,
                 "hole": "1",
-                "isBookable": false,
-                "canQuickBook": false,
+                "isBookable": true,
+                "canQuickBook": true,
                 "allowReservations": true,
-                "bookingTimeType": 1,
-                "bookingTimeTypeTxt": "Booked",
+                "bookingTimeType": 0,
+                "bookingTimeTypeTxt": "Available",
                 "players": [
                     {
                         "playerType": 4,
@@ -359,11 +359,6 @@
                         "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 5,
-                        "playerTypeTxt": "Guest",
-                        "playerLabel": "Not Available"
-                    },
-                    {
                         "playerType": 4,
                         "playerTypeTxt": "Member",
                         "playerLabel": "Not Available"
@@ -372,6 +367,11 @@
                         "playerType": 4,
                         "playerTypeTxt": "Member",
                         "playerLabel": "Not Available"
+                    },
+                    {
+                        "playerType": 1,
+                        "playerTypeTxt": "Available",
+                        "playerLabel": "Available"
                     }
                 ],
                 "teeTime": "08:24:00",
@@ -381,7 +381,7 @@
                 "lotteryRequests": 0,
                 "isTournament": false,
                 "tournamentDetails": null,
-                "availPlayers": 0,
+                "availPlayers": 1,
                 "lockedBy": 0,
                 "lockedUntil": null,
                 "lotteryEndTime": "00:00:00",
@@ -413,11 +413,11 @@
                 "eighteenAllowed": true,
                 "nineAllowed": true,
                 "hole": "1",
-                "isBookable": false,
-                "canQuickBook": false,
+                "isBookable": true,
+                "canQuickBook": true,
                 "allowReservations": true,
-                "bookingTimeType": 1,
-                "bookingTimeTypeTxt": "Booked",
+                "bookingTimeType": 0,
+                "bookingTimeTypeTxt": "Available",
                 "players": [
                     {
                         "playerType": 4,
@@ -435,9 +435,9 @@
                         "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 4,
-                        "playerTypeTxt": "Member",
-                        "playerLabel": "Not Available"
+                        "playerType": 1,
+                        "playerTypeTxt": "Available",
+                        "playerLabel": "Available"
                     }
                 ],
                 "teeTime": "08:30:00",
@@ -447,7 +447,7 @@
                 "lotteryRequests": 0,
                 "isTournament": false,
                 "tournamentDetails": null,
-                "availPlayers": 0,
+                "availPlayers": 1,
                 "lockedBy": 0,
                 "lockedUntil": null,
                 "lotteryEndTime": "00:00:00",
@@ -2085,8 +2085,8 @@
                         "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 5,
-                        "playerTypeTxt": "Guest",
+                        "playerType": 4,
+                        "playerTypeTxt": "Member",
                         "playerLabel": "Not Available"
                     }
                 ],
@@ -2921,11 +2921,11 @@
                 "eighteenAllowed": true,
                 "nineAllowed": true,
                 "hole": "1",
-                "isBookable": true,
-                "canQuickBook": true,
+                "isBookable": false,
+                "canQuickBook": false,
                 "allowReservations": true,
-                "bookingTimeType": 0,
-                "bookingTimeTypeTxt": "Available",
+                "bookingTimeType": 1,
+                "bookingTimeTypeTxt": "Booked",
                 "players": [
                     {
                         "playerType": 4,
@@ -2943,9 +2943,9 @@
                         "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 4,
+                        "playerTypeTxt": "Member",
+                        "playerLabel": "Not Available"
                     }
                 ],
                 "teeTime": "12:00:00",
@@ -2955,7 +2955,7 @@
                 "lotteryRequests": 0,
                 "isTournament": false,
                 "tournamentDetails": null,
-                "availPlayers": 1,
+                "availPlayers": 0,
                 "lockedBy": 0,
                 "lockedUntil": null,
                 "lotteryEndTime": "00:00:00",
@@ -6683,31 +6683,31 @@
                 "eighteenAllowed": true,
                 "nineAllowed": true,
                 "hole": "1",
-                "isBookable": true,
-                "canQuickBook": true,
+                "isBookable": false,
+                "canQuickBook": false,
                 "allowReservations": true,
-                "bookingTimeType": 0,
-                "bookingTimeTypeTxt": "Available",
+                "bookingTimeType": 1,
+                "bookingTimeTypeTxt": "Booked",
                 "players": [
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     }
                 ],
                 "teeTime": "17:10:00",
@@ -6717,7 +6717,7 @@
                 "lotteryRequests": 0,
                 "isTournament": false,
                 "tournamentDetails": null,
-                "availPlayers": 4,
+                "availPlayers": 0,
                 "lockedBy": 0,
                 "lockedUntil": null,
                 "lotteryEndTime": "00:00:00",
@@ -7277,31 +7277,31 @@
                 "eighteenAllowed": true,
                 "nineAllowed": true,
                 "hole": "1",
-                "isBookable": true,
-                "canQuickBook": true,
+                "isBookable": false,
+                "canQuickBook": false,
                 "allowReservations": true,
-                "bookingTimeType": 0,
-                "bookingTimeTypeTxt": "Available",
+                "bookingTimeType": 1,
+                "bookingTimeTypeTxt": "Booked",
                 "players": [
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     },
                     {
-                        "playerType": 1,
-                        "playerTypeTxt": "Available",
-                        "playerLabel": "Available"
+                        "playerType": 5,
+                        "playerTypeTxt": "Guest",
+                        "playerLabel": "Not Available"
                     }
                 ],
                 "teeTime": "18:00:00",
@@ -7311,7 +7311,7 @@
                 "lotteryRequests": 0,
                 "isTournament": false,
                 "tournamentDetails": null,
-                "availPlayers": 4,
+                "availPlayers": 0,
                 "lockedBy": 0,
                 "lockedUntil": null,
                 "lotteryEndTime": "00:00:00",

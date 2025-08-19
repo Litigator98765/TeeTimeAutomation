@@ -44,7 +44,7 @@ def commit_booking(tee_time_id):
                 "ReservationId": 0,
                 "ReservationType": 0,
                 "FullName": "Max Miller",
-                "MemberId": 1006706841,
+                "MemberId": 1006706841, # NEED TO CHANGE THESE TO MATCH MEMBERS. FIND THIS NUMBER THROUGH CHROM DEV TOOLS/NETWORK in the post request after booking time
                 "Transport": "0",
                 "Caddy": "false",
                 "Rentals": ""
