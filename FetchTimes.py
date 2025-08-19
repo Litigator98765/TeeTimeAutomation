@@ -1,8 +1,9 @@
 import json
 import requests
+from datetime import datetime, timedelta
 
-date = "20250821"
-courses = "142;143"
+date = (datetime.today() + timedelta(days=7)).strftime("%Y%m%d")
+courses = "143"
 url = f"https://ohiostategolfclub.clubhouseonline-e3.com/api/v1/teetimes/GetAvailableTeeTimes/{date}/{courses}/0/null/false"
 
 # Load cookies
