@@ -1,9 +1,9 @@
 import json
 import requests
-import GetTimes
+import FetchAndSortTimes
 
 # Get the 5 earliest available tee time IDs from GetTimes.py
-tee_time_ids = GetTimes.get_earliest_tee_time_ids(limit=5)
+tee_time_ids = FetchAndSortTimes.get_earliest_tee_time_ids(days_ahead=2)
 print(f"Earliest available tee time IDs: {tee_time_ids}")
 
 # Load cookies from cookies.json
